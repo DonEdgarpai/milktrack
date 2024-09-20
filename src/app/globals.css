@@ -25,3 +25,23 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Aumentar el contraste para el texto en general */
+p, h1, h2, h3, h4, h5, h6, span, div {
+  @apply text-gray-800 dark:text-black;
+}
+
+/* Asegurar que el texto en los inputs sea visible */
+input, textarea, select {
+  @apply text-gray-800 dark:text-black bg-white dark:bg-white;
+}
+
+/* Mejorar la visibilidad de los botones */
+button {
+  @apply text-white ;
+}
+
+/* Ajustar el color de fondo de las tarjetas para mejorar el contraste */
+.card {
+  @apply bg-white dark:bg-gray-800 shadow-lg;
+}
